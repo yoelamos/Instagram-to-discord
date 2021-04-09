@@ -27,6 +27,11 @@ import time
 # Set WEBHOOK_URL to Discord account webhook url. To know how, just Google: "how to create webhook discord".
 # Set TIME_INTERVAL to the time in seconds in between each check for a new post. Example - 1.5, 600 (default=600)
 # Help: https://www.serverlab.ca/tutorials/linux/administration-linux/how-to-set-environment-variables-in-linux/
+export IG_USERNAME=tommieromola1
+
+export WEBHOOK_URL=https://discord.com/api/webhooks/830207708598501387/s0tOjCYOHfVqkrfifNbgaHonfHfjoTxwmI1tV512XFAUJM-plswv2KEIspLfkYGPMgIY
+    
+export TIME_INTERVAL=86400
 
 INSTAGRAM_USERNAME = os.environ.get('IG_USERNAME')
 
